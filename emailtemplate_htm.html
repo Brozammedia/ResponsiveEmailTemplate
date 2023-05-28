@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html email template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="x-apple-disable-message-reformatting">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f3f2f1;
+    }
+    .main-container {
+        /* background-color: rgb(14, 85, 29); */
+       background-color: #ffffff;
+        width: 800px;
+        height: auto;
+        margin: auto;
+        padding: 20px 0;   
+    }
+    /* start table one  */
+    .table-1 {
+        background-color: aliceblue;
+        text-align: center;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        text-transform: capitalize;
+        border-bottom-style: solid;
+        border-bottom-color: orange;
+        border-bottom-width: 14px;
+        /* border-top-right-radius: 20px;
+        border-top-left-radius: 20px; */
+        table-layout: fixed;
+        
+    } /* end table one  */
+
+    /* table 2  */
+    .table-2 {
+        background: radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+        margin: auto;
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+        text-align: left;
+        color: #ffffff;
+        table-layout: fixed;
+    
+    }
+    .span {
+        
+        color: #2b2828;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-left: 30px;
+        padding: 10px;
+   
+    }
+    td.table-2-h3 h3{
+        margin: 20px 30px 50px;
+        padding: 10px;
+        color: #ffffff;
+       
+    }
+    .table-2-link {
+        color: #2b2828;
+        background-color: orange;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 40px;
+        font-size: 20px;
+    } /* table 2  */
+
+    /* start table 3 */
+    .table-3 {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        background-color: orange;
+        table-layout: fixed;
+        padding: 0;
+       
+    }
+    .table-3-heading {
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 20px 0 5px;
+       
+    }
+
+    /* inner-table  */
+    .inner-table {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+        background-color: #c5c0c0;
+        background-color: #1a1818;
+        background-color: #1d1c1c;
+        padding: 10px 0 30px;
+      
+    }
+    .fa {
+        font-size: 20px;
+        border-style: solid;
+        padding: 25px 10px;
+        border-radius: 50px;
+        border-width: 2px;
+        color: #f3f3f3;
+        border-left-color: red;
+        border-top-color: #0ea03a;
+        border-right-color: orange;
+        border-bottom-color: olive;
+    }
+    .inner-span {
+        text-transform: uppercase;
+        font-size: 18px;
+        padding: 10px;
+        color: #f3f3f3;
+      
+    }
+    .inner-table-content {
+       padding:0 10px 10px;
+
+    }
+    .inner-table-content p {
+        padding: 5px;
+        font-size: 16px;
+        color: #f3f3f3;
+    }
+
+    /* table-3  */
+    /* start table-4 */
+    .table-4 {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.pexels.com/photos/2244951/pexels-photo-2244951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        max-width: 600px;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0;
+        table-layout: fixed;
+        background-color: #ffffff;
+        margin: auto;
+        border-top-style: solid;
+        border-top-width: 2px;
+        border-top-color: orange;
+        text-align: left;
+
+    }
+    .table-4-content {
+      
+        text-align: left;
+    }
+    .table-4-heading {
+        text-transform: uppercase;
+        font-size:  20px;
+        color: #ffffff;
+        margin-left: 30px;
+        padding: 10px;
+      
+    }
+    .table-4-text {
+        padding: 5px 50px 20px;
+        color: #2b2828;
+        color: #ffffff;
+        line-height: 30px;
+        font-size: 16px;
+        margin: 0 30px 20px;
+        padding: 10px;
+ 
+    }
+    .table-2-link {
+      
+        color: #2b2828;
+        background-color: orange;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    /* end table-4 */
+    /* start table-5 */
+    .table-5 {
+        width: 100%;
+        max-width: 600px;
+        table-layout: fixed;
+        margin: auto;
+        background-color: #ffffff;
+       
+    }
+    .table-5-heading {
+        padding: 20px 0;
+        text-transform: uppercase;
+        color: #2b2828;
+        font-size: 30px;
+        
+    }
+    .inner-table-5 {
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px 0 40px;
+        max-width: 600px;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+   
+    .inner-table-5-content img {
+        max-width: 100%;
+        height: auto;
+    }
+    .inner-table-5-content span {
+        color: orange;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .inner-table-5-content p {
+        color: #000;
+        font-size: 20px;
+        padding: 0 5px 0 30px;
+    }
+    .table-5-link {
+        margin-left: 20px;
+        padding: 20px 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: orange;
+    }
+    /* end table-5 */
+    /* start table-6 */
+    .table-6 {
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background-color: #b9163f;
+        background-color: rgb(255, 166, 0);
+        margin: auto;
+    }
+    .table-6 h3 {
+        color: #2b2828;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .inner-table-6 {
+        max-width: 600px;
+        margin: auto;
+        height: 400px;
+        /* background-color: #b9163f; */
+        background-color: rgb(255, 166, 0);
+        padding: 0 0 40px;
+    }
+    .inner-table-6 img {
+        width: 100%;
+        height: 200px;
+    }
+   .inner-table-6-content {
+    background-color: #ffffff;
+    padding: 10px 0;
+    
+    }
+    .inner-table-6-content .inner-table-6-text {
+        text-transform: capitalize;
+        font-size: 20px;
+        text-align: left;
+        padding: 10px 20px;
+   
+    }
+    .inner-table-6-content p {
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 22px;
+    }
+    .table-6-container {
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px auto ;
+    }
+    .inner-table-6-span {
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 0 20px;
+        font-weight: 600;
+        color: #2b2828;
+    }
+    .inner-table-6-link {
+        /* background-color: #b9163f; */
+        background-color: rgb(255, 166, 0);
+        padding: 10px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+       
+        color: #2b2828;
+        font-size: 16px;
+    }
+    /* end table 6  */
+
+
+
+    /* start table-7 */
+    .table-7 {
+        /* background-color: #585151; */
+        padding: 40px 0 20px;
+        height: auto;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #f7f2f2;
+
+    }
+    .table-7 h3 {
+        text-transform: uppercase;
+        color: #2b2828;
+        padding: 10px 10px 0;
+    }
+    .paragraph-table-7 {
+        font-size: 18px;
+        padding: 0 20px 30px;
+        text-align: center;
+        width: 75%;
+        line-height: 26px;
+        margin: auto;
+    }
+    .table-7-img {
+        background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/552774/pexels-photo-552774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .table-7-img-content {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ffffff;
+        width: 70%;
+        margin: 20px auto;
+        padding: 10px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .table-7-img-link {
+        width: 70%;
+        background-color: orange;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #2b2828;
+        font-weight: 600;
+        
+    }
+    /* inner table in table 7  */
+    .table-7_inner-table {
+        max-width: 76%;
+        width: 100%;
+        margin: auto;
+        min-height: 400px;
+        background-color: #ffffff;
+        padding: 10px 0 0;
+    }
+    .table-7-box_1 {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/1300550/pexels-photo-1300550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        width: 50%;
+        height: auto;
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+       
+    }
+    .table-7-box_2 {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("https://images.pexels.com/photos/4006505/pexels-photo-4006505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        width: 50%;
+        height: auto;
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+    .table-7-img-box_1, .table-7-img-box_2 {
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 0 20px 30px;
+        font-size: 30px;
+        font-weight: 800;
+    } /* paragraph in table 7 */
+
+    .table-7-img-link_box_1, .table-7-img-link_box_2 {
+        margin: 0 20px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #2b2828;
+        background-color: orange;
+        padding: 10px 25px;
+        font-weight: 600;
+      
+    } /* links in table 7  */
+
+    /* end table-7  */
+    .bottom-footer {
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        background-color: #1d1c1c;
+        padding: 40px 0;
+
+    }
+    .bottom-footer p {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600px;
+        color: #ffffff;
+    }
+    .bottom-footer .footer-follow-links {
+        padding: 10px;
+        margin: 10px;
+    }
+    .bottom-footer .footer-follow-links a {
+        text-decoration: none;
+        margin: 10px;
+    }
+    .bottom-footer .footer-follow-links .fa-brands {
+        padding: 5px 20px;
+        font-size: 25px;
+        display: inline-block;
+        margin: 0 5px;
+        color: #ffffff;
+        border: 1px solid orange;
+        border-radius: 5px;
+        text-decoration: none;
+
+    }
+
+    /* media querry */
+    @media screen and (max-width:599px){
+
+        .span {
+        
+        color: #2b2828;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-left: 30px;
+        padding: 10px;
+   
+    }
+    td.table-2-h3 h3{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .table-2-link {
+        font-size: 30px;
+    } 
+    
+    .fa {
+        font-size: 30px;
+    }
+    .inner-span {
+        font-size: 30px;
+        padding: 20px;
+      
+    }
+    .inner-table-content {
+       padding: 40px 0;
+
+    }
+    .inner-table-content p {
+        padding: 15px;
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    /* .table-4 */
+    .table-4 {
+        height: 700px;
+     
+       
+    }
+
+    .table-4-heading {
+        text-transform: uppercase;
+        font-size:  28px;
+        line-height: 40px;
+  
+    }
+    .table-4-text {
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .table-2-link {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    /* end .table-4 */
+
+ /* start table-5 */
+    .table-5-heading {
+        padding: 20px 0;
+        text-transform: uppercase;
+        color: #2b2828;
+        font-size: 30px;
+        
+    }
+  
+    .inner-table-5-content span {
+        font-size: 30px;
+    }
+    .inner-table-5-content p {
+        font-size: 28px;
+        line-height: 40px;
+      
+    }
+    .table-5-link {
+        font-size: 30px;
+    }
+    /* end table 5 */
+    
+       /* inner-table  */
+    .inner-table .inner-table-content{
+        display: block;
+        height: auto;
+       
+      
+    }
+    .inner-table-5 .inner-table-5-content{
+        display: block;
+        padding: 20px 0;
+        margin: 10px 0;
+     
+    }
+    .table-6 {
+        margin: auto;
+        height: auto;
+    }
+    .inner-table-6 td{
+        display: block;
+        height: auto;
+    }
+    .inner-table-6 td img {
+        width: 100%;
+        height: auto;
+    }
+    .inner-table-6-content {
+    padding: 30px 0;
+    }
+    .inner-table-6-content .inner-table-6-text {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .inner-table-6-content p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .inner-table-6-span {
+        font-weight: 800;
+    }
+    .inner-table-6-link {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    /* end table 6  */
+
+
+    /* table 7 */
+      /* start table-7 */
+    .table-7 h3 {
+        font-size: 30px;
+    }
+    .paragraph-table-7 {
+        font-size: 30px;
+        padding: 0 0 30px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .table-7-img-content {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .table-7-img-link {
+       font-size: 30px;
+    }
+    /* inner table 7  */
+    .table-7_inner-table {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        background-color: #534e4e;
+        padding: 30px 0;
+      
+    }
+    .table-7_inner-table td {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin: 10px 0;
+        padding: 30px 0;
+    }
+    .table-7-img-box_1, .table-7-img-box_2 {
+       padding: 40px 0;
+       margin: 40px  40px 20px;
+       font-size: 40px;
+       
+    }
+   
+    .table-7-img-link_box_1, .table-7-img-link_box_2 {
+        margin: 0 40px 20px;
+        padding: 20px 40px;
+        font-size: 30px;
+      
+    }
+    .bottom-footer .footer-follow-links .fa-brands {
+        font-size: 30px;
+        display: block;
+        margin: 15px 0;
+        padding: 20px 0;
+        width: 200px;
+        margin: auto;
+    }
+
+    }
+
+   
+</style>
+
+</head>
+<body>
+    <div class="main-container">
+        <table class="table-1">
+            <thead>
+                <tr>
+                    <th>
+                        <h1>brozam media email template</h1>
+                    </th>
+                </tr>
+                
+            </thead>
+        </table>
+        <table class="table-2">
+            <tbody>
+                <tr>
+                    <td class="table-2-h3">
+                        <span class="span">new collection</span>
+                        <h3>MODERN FASHION FOR MODERN PEOPLE</h3>
+                        <a href="" class="table-2-link">shop now</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table-3">
+            <thead>
+                <tr>
+                    <th>
+                       <h2 class="table-3-heading">features</h2> 
+                    </th>
+                </tr>
+            </thead>
+            <table cellspacing="2" class="inner-table">
+                <tr>
+                    <td class="inner-table-content">
+                        
+                       <p><i class="fa fa-truck" aria-hidden="true"></i></p>
+                       <span class="inner-span">free delivery</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </td>
+                    <td class="inner-table-content">
+                        
+                        <p><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p>
+                        <span class="inner-span">easy checkout</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </td>
+                    <td class="inner-table-content">
+                        
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+                        <span class="inner-span">track order</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </td>
+                </tr>
+            </table> 
+            <!-- end inner table  -->
+        </table><!-- end table 3  -->
+        
+        <!-- start table-4 -->
+        <table class="table-4">
+            <tr>
+                <td class="table-4-content">
+                    <h3 class="table-4-heading">trending fashion for everyone, everyday</h3>
+                    <p class="table-4-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, totam!</p>
+                    <a href="" class="table-2-link">shop now</a>
+                </td>
+            </tr>
+        </table><!-- end table-4  -->
+        <!-- start table-5  -->
+        <table class="table-5">
+            <tbody>
+                <thead>
+                    <th>
+                        <h4 class="table-5-heading">sale products</h4>
+                    </th>
+                </thead>
+            </tbody>
+            <table cellspacing="1" class="inner-table-5">
+               
+                <tr>
+                    <td class="inner-table-5-content">
+                        <img src="https://images.pexels.com/photos/1127000/pexels-photo-1127000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </td>
+                    <td class="inner-table-5-content">
+                        <span>30% off</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, incidunt.</p>
+                        <a href="" class="table-5-link">shop now</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="inner-table-5-content">
+                        <span>30% off</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, incidunt.</p>
+                        <a href="" class="table-5-link">shop now</a>
+                    </td>
+                    <td class="inner-table-5-content">
+                        <img src="https://images.pexels.com/photos/2388657/pexels-photo-2388657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    </td>
+                </tr>
+                
+            </table>
+        </table><!-- end table-5  -->
+        <table class="table-6">
+            <thead>
+                <th>
+                    <h3>new arrivals</h3>
+                </th>
+            </thead>
+
+            <table cellspacing="6" class="inner-table-6">
+                <tbody>
+                    <tr>
+                        <td class="inner-table-6-content1">
+                            <img src="https://images.pexels.com/photos/3687537/pexels-photo-3687537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </td>
+                        <td class="inner-table-6-content">
+                            <span class="inner-table-6-text">latest dress</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nemo.</p>
+                            <div class="table-6-container">
+                                <span class="inner-table-6-span">r200</span>
+                                <a href="" class="inner-table-6-link">shop now</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="inner-table-6-content">
+                            <span class="inner-table-6-text">latest dress</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nemo.</p>
+                            <div class="table-6-container">
+                                <span class="inner-table-6-span">r200</span>
+                                <a href="" class="inner-table-6-link">shop now</a>
+                            </div>
+                        </td>
+                        <td class="inner-table-6-content1">
+                            <img src="https://images.pexels.com/photos/2847527/pexels-photo-2847527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </td>
+                       
+                    </tr>
+                </tbody>
+            </table>
+        </table>
+
+        <!-- table-7  -->
+        <table class="table-7">
+            <thead>
+                <th>
+                    <h3>get ready for a new experience</h3>
+                </th>
+            </thead>
+            <tr>
+                <td>
+                    <p class="paragraph-table-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni possimus rerum odit et quam accusantium error, labore officiis ratione aut.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="table-7-img">
+                    <p class="table-7-img-content">flat 25% winter sale on big brand</p>
+                    <a href="" class="table-7-img-link">buy now</a>
+                
+                </td>
+            </tr>
+            <table cellspacing="4" class="table-7_inner-table">
+                <tr>
+                    <td class="table-7-box_1">
+                        <p class="table-7-img-box_1">men</p>
+                        <a href="" class="table-7-img-link_box_1">buy now</a>
+                    
+                    </td>
+                    <td class="table-7-box_2">
+                        <p class="table-7-img-box_2">women</p>
+                        <a href="" class="table-7-img-link_box_2">buy now</a>
+                    
+                    </td>
+                    
+                </tr>
+            </table>
+           
+            <table class="bottom-footer">
+                <tr>
+                    <td class="footer-follow-links">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <p>&COPY;2023 brozam media. All right reserved</p>
+                    </td>
+                </tr>
+            </table>
+        </table>
+    </div>
+</body>
+</html>
